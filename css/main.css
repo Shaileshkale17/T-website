@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 100px;
+    z-index: 9999;
+}
+
+section {
+    min-width: 100vh;
+    min-height: 100vh;
+
+    padding: 20px 100px;
+}
+
+/* Header */
+header ul li {
+    list-style: none;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* home */
+#Home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-text h2 {
+    padding-top: 13%;
+    padding-right: 29%;
+    font-size: 8vh;
+}
+
+.home-text .text-p1 {
+    padding-top: 21px;
+}
+
+.home-text p {
+    font-size: 25px;
+    color: darkgray;
+}
+
+.home-img {
+    padding-top: 4%;
+}
+
+/* Services */
+#Services h1 {
+    text-align: center;
+    font-size: 14vh;
+}
+
+#Services .moblie {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 14%;
+    margin-bottom: 33%;
+}
+
+#Services p {
+    display: flex;
+}
+
+#Services .p1 {
+    width: 36%;
+}
+
+#Services .box {
+    display: flex;
+    justify-content: end;
+    margin-top: -26%;
+}
+
+#Services .moblie .box .color-1 {
+    width: 21%;
+    background-color: #59dc31;
+    border-radius: 104px 0px 0px 104px;
+    margin-top: 77px;
+    margin-bottom: 103px;
+}
+
+#Services .moblie .box .color-2 {
+    width: 21%;
+    background-color: #59dc31;
+    border-radius: 0px 104px 104px 0px;
+    margin-top: 77px;
+    margin-bottom: 103px;
+}
+
+#Services h2 {
+    display: grid;
+    font-size: 10vh;
+}
+
+#Services .web {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 14%;
+    margin-bottom: 33%;
+}
+
+#Services .web-text {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 14%;
+    display: flex;
+    justify-content: end;
+    margin-top: -13%;
+    margin-left: 69%;
+}
+
+#Services .box-web {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -24%;
+}
+#Services .box-web img {
+    width: 260px;
+}
+
+#Services .web .color-1 {
+    width: 21%;
+    background-color: #59dc31;
+    border-radius: 104px 0px 0px 104px;
+    
+}
+
+#Services .web .color-2 {
+    width: 21%;
+    background-color: #59dc31;
+    border-radius: 0px 104px 104px 0px;
+    
+}
+#Services .Digital {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 14%;
+    display: flex;
+    justify-content: end;
+    margin-top: -13%;
+    margin-left: 65%;
+}
+#Services .Digital .box-web{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -26%;
+}
+#Services .Digital .box {
+    display: flex;
+    justify-content: end;
+    margin-top: -26%;
+}
+
+#Services .Digital .box .color-1 {
+    width: 21%;
+    background-color: aquamarine;
+    border-radius: 104px 0px 0px 104px;
+    margin-top: 77px;
+    margin-bottom: 103px;
+}
+
+#Services .Digital .box .color-2 {
+    width: 21%;
+    background-color: aquamarine;
+    border-radius: 0px 104px 104px 0px;
+    margin-top: 77px;
+    margin-bottom: 103px;
+}
+
+#Services .logos {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-top: 14%;
+    margin-bottom: 33%;
+}
